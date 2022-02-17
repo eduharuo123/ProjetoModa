@@ -1,0 +1,158 @@
+body {
+    background-color: rgba(235, 215, 215, 0.904);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.topo{
+    background-image: url(../imagens/topo.jpg);
+    height: 700px;
+    margin-top: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-position: center;
+    background-size: cover;    
+}
+.Menu{
+    background-color: rgba(0, 0, 0, 0.452);
+    height: 50px;
+}
+
+.Menu img{
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+.Menu nav ul{
+    float: right;
+    margin: -30px 30px 0 0;
+}
+
+.Menu nav li{
+    display: inline-block;
+    margin-left: 15px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.Menu nav a{
+    color: rgba(255, 255, 255, 0.253);
+
+}
+
+.Menu nav a:hover{
+    color:rgba(255, 255, 255, 0.801);
+    transition: color .3s linear;
+}
+.apresentacao{
+    text-align: center;
+    margin-right: 90px;
+    margin-left: 90px;    
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.apresentacao h1{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.apresentacao p{
+    font-size: 20px;
+    line-height: 2;
+}
+
+.cards{
+    height: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.card{
+    width: 14%;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 1%;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.card-1{
+    margin-left: 27%;
+}
+.card-3{
+    margin-left: 27%;
+}
+.card-2, .card-3{
+    margin-left: 2%;
+}
+.card h2{
+    font-size: 20px;
+    color: rgba(48, 48, 48, 0.568);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.74);e;
+}
+.card p{
+    font-size: 17px;
+    color: rgba(95, 95, 95, 0.671);
+}
+.card p, .card h2{
+    text-align: center;
+}
+
+
+.premissa, .location{
+    clear: both;
+}
+
+.premissa{
+    height: 500px;
+    margin: 10%;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 5%;
+    
+}
+
+.premissa h1{
+    color: white;
+    font-size: 55px;
+    letter-spacing: 10px;
+}
+
+.premissa p{
+    color: white;
+    font-size: 20px;
+    
+}
+
+.location{
+    text-align: center;
+    margin: 10%;
+    
+}
+
+.location iframe{
+    width: 100%;
+}
+
+
+
+footer{
+    text-align: center;
+    height: 50px;
+    background-color: rgba(23, 22, 26, 0.918);
+    margin: 10%;
+    margin-bottom: 1px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
